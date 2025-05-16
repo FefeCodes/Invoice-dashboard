@@ -1141,6 +1141,19 @@
 
 
 @media screen and (max-width: 450px){
+    .container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 3rem;
+    }
+
+
     .header-container{
         width: 100%;
         height: auto;
